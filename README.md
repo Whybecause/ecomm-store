@@ -1,6 +1,28 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+# TODO
+
 ## Getting Started
+
+# Memo Technos
+Headlessui for tailwind
+zustand: state management
+stripe
+
+# Commands
+Launch app (runs pm2 with name 'ecomm-store')
+  npm run pm2
+
+Stop App: (stop the pm2 instance)
+  npm run stop
+
+Logs (from the pm2 instance)
+  npm run logs
+
+pm2 commands:
+Logs: pm2 logs ecomm-store
+Stop: pm2 stop ecomm-store
+delete: pm2 delete ecomm-store
 
 First, run the development server:
 
